@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.section-1 {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.section-1 .div-left {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+}
+
+.section-1 .div-left .logo-style {
+    width: 50px;
+}
+
+.section-1 .div-left .text-style {
+    margin-left: 15px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section-1 .div-mid {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-1 .div-mid .search-box {
+    width: 30%;
+    background-color:rgb(49, 49, 49);
+    outline-style: none;
+    border: 1px solid gray;
+    padding-left: 10px;
+    color: white;
+}
+
+.section-1 .div-mid .search-button {
+    background-color:gray;
+    outline-style: none;
+    border: 1px solid gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+.section-1 .div-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.section-1 .div-right .icon-style {
+    color: white;
+}
+
+.section-2 {
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+}
+
+.custom-nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-3 {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
